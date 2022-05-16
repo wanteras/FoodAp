@@ -156,9 +156,9 @@ const Restaurant = ({route, navigation}) => {
                     ],{useNativeDriver:false})}
                   >
                     {
-                          restaurant?.menu.map((item, index) => (
+                          restaurant?.menu.map((item, key) => (
                             <View
-                            key ={'menu-${index}'} 
+                            key ={'key'} 
                             style = {{ alignItems: 'center'}} >
 
 
